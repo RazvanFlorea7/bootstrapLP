@@ -1,0 +1,137 @@
+:root{
+    --white: #e3e3e3;
+    --turquoise: #009f93;
+    --dark-green: #00373d;
+    --mustard: #bc6c25;
+    --grey: #5c5c5c;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: var(--white);
+}
+.custom-container{
+    background-image: url(/images/topography.svg),
+     linear-gradient(30deg, var(--turquoise), var(--dark-green));
+    border-bottom-left-radius: 50% 5%;
+    border-bottom-right-radius: 50% 5%;
+    z-index: 1;
+    height: fit-content;
+    padding-bottom: 5em;
+}
+div#navbarNav{
+    justify-content: right;
+}
+a.nav-link{
+    margin: 0 2em 0 2em;
+    font-size: 1.3em;
+}
+.content{
+    height:fit-content;
+    padding: 50px 20px;;
+}
+.col-sm{
+    display: flex;
+    justify-content: center;
+}
+.carousel{
+    margin:50px 20px 100px 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 3px solid var(--dark);
+}
+.card{
+    border-radius: 20px;
+    overflow: hidden;
+    color: white;
+    background: var(--dark);
+}
+.row{
+    margin: 10px;
+}
+#scroll{
+    float: right;
+    top: 50%;
+    position: sticky;
+    height: 40px;
+    width: 20px;
+    border-radius: 5px;
+    background-color: var(--info);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accordion{
+    margin: 50px;
+}
+.formular{
+    background: white;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 30px;
+}
+.buton{
+    justify-content: right;
+}
+.buton button{
+    width: 15%;
+}
+.footer{
+    height: 12vh;
+    background-color: var(--grey);
+    border-top-left-radius: 50% 20%;
+    border-top-right-radius: 50% 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-footer{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 7em;
+    font-weight: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: .7vh solid #fff;
+    border-bottom: .7vh solid #fff;
+    border-radius: 20px;
+    margin: 20px auto;
+    width: 70vw;
+}
+.socials{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.socials i:hover{
+    color:var(--white);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.navigatie{
+    margin-left: auto !important; 
+}
+.card2{
+    width: 18rem;
+}
+.navbar-brand svg{
+    height: 50px;
+    transform: scale(2);
+}
+@media (min-width:1000px){
+    .card2{
+        width: 25rem;
+    }
+}
+
